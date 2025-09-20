@@ -32,11 +32,13 @@
 
 class Students:
 
+    age = 22
 
-    def set_details(self, Rollno, Name, Marks):
+    def __init__(self, Rollno, Name, Marks):
         self.rollno = Rollno
         self.name = Name
         self.marks = Marks
+
 
     
     def get_details(self):
@@ -45,15 +47,16 @@ Students Information
 ---------------------
 Name  : {self.name}
 Roll  : {self.rollno}
-Marks : {self.marks}%\n''')
+Marks : {self.marks}%
+Age   : {self.age}\n''')
         
 
 if __name__ == '__main__': 
-    std1 = Students()
-    std1.set_details(21,"Soham",69)
+    std1 = Students(21,"Soham",69)
 
-    std2 = Students()
-    std2.set_details(12, "Mohit", 67)
+
+    std2 = Students(12, "Mohit", 67)
+    std2.age=23
 
 
     std1.get_details()
