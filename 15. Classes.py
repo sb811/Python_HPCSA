@@ -30,34 +30,34 @@
 
 # Class Assignment 1 : Creating a Student Class
 
-class Students:
+# class Students:
 
-    age = 22
+#     age = 22
 
-    def __init__(self, Rollno, Name, Marks):
-        self.rollno = Rollno
-        self.name = Name
-        self.marks = Marks
+#     def __init__(self, Rollno, Name, Marks):
+#         self.rollno = Rollno
+#         self.name = Name
+#         self.marks = Marks
 
 
     
-    def get_details(self):
-        print(f'''
-Students Information
----------------------
-Name  : {self.name}
-Roll  : {self.rollno}
-Marks : {self.marks}%
-Age   : {self.age}\n''')
+#     def get_details(self):
+#         print(f'''
+# Students Information
+# ---------------------
+# Name  : {self.name}
+# Roll  : {self.rollno}
+# Marks : {self.marks}%
+# Age   : {self.age}\n''')
         
 
-if __name__ == '__main__': 
-    std1 = Students(21,"Soham",69)
+# if __name__ == '__main__': 
+#     std1 = Students(21,"Soham",69)
 
 
-    std2 = Students(12, "Mohit", 67)
-    std2.age=23
+#     std2 = Students(12, "Mohit", 67)
+#     std2.age=23
 
 
-    std1.get_details()
-    std2.get_details()
+#     std1.get_details()
+#     std2.get_details()
