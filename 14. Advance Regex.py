@@ -20,14 +20,14 @@ import re
     
 # Class Assignment 2
 
-# text = "I wish to work with:Google123,apple,123meta##,Amazon,X,Microsoft..,Tesla,Nasa(),ISRO"
-# list1=(text.split(":"))
-# list2=(list1[1].split(","))
-# print(list2)
-# pattern = r'^[A-Za-z]*[A-Za-z]$'
-# for i in list2:
-#     res = re.search(pattern,i)
-#     if res:
-#         print(f'results: {i}')
-#     else:
-#         print("None")
+text = "I wish to work with:Google123,apple,123meta##,Amazon,X,Microsoft..,Tesla,Nasa(),ISRO"
+list1=(text.split(":"))
+list2=(list1[1].split(","))
+print(list2)
+pattern = r'^[A-Za-z]*[A-Za-z]$'
+for i in list2:
+    res = re.search(pattern,i)
+    if res:
+        print(f'results: {i}')
+    else:
+        print("None")
