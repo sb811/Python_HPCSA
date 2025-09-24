@@ -7,8 +7,6 @@ print (f'The Numbers Before swapping var1 : {var1} & var2 : {var2}')
 var2, var1 = var1, var2
 print (f'The Numbers After swapping var1 : {var1} & var2 : {var2}')
 
-
-
 # Assignment 2: Try out Arithmetic and Assignment operators
 
 var1 = int(input("Enter 1 no: "))

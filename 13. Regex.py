@@ -4,7 +4,7 @@ import re
 # def search_regex():
 #     print("\n#####Using search()#####")
 #     text = "Hello World!"
-#     pattern = r'Hello'
+#     pattern = r'World!'
 #     print(f'\nOrignal text: "{text}"')
 #     print(f'Pattern: {pattern}')
 #     bRes = re.search(pattern,text)
